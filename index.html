@@ -1,0 +1,81 @@
+
+<!-- saved from url=(0089)http://scis.lms.athabascau.ca/pluginfile.php/25823/mod_book/chapter/291/html/sample1.html -->
+<!DOCTYPE html>
+<html lang="en-US"> 
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Recipe Roulette" content="Recipe generating web application">
+    <meta name="keywords" content="recipe, recipes, food, filter, search">
+    <meta name="author" content="Ryan Filax-Wylie">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Roulette-An application for generating random recipes based on some user input.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script></script>
+        <!-- <link rel="stylesheet" href=""> 
+            This link will be used for adding css styling. 
+        -->
+
+    <body>
+
+        <!-- Might consider adding a little text window area that is for a featured resto ... then an off page link to the past local featured 
+        which is a table in links page with little blurbs
+        to male an off page link need the section in question to have an id then the anchor has an href with the page location#idName ()
+        -->
+        <div class="nav-bar">
+            <h2>Recipe Roulette</h2>
+            <ul>
+                <li><a href="file:///C:/Users/Ryan/OneDrive/School/Athabasca%20U/Comp%20266/recipeRoulette/index.html">home</a></li>
+                <li><a href="file:///C:/Users/Ryan/OneDrive/School/Athabasca%20U/Comp%20266/recipeRoulette/about.html">about</a></li>
+                <li><a href="file:///C:/Users/Ryan/OneDrive/School/Athabasca%20U/Comp%20266/recipeRoulette/contact.html">contact</a></li>
+                <li><a href="file:///C:/Users/Ryan/OneDrive/School/Athabasca%20U/Comp%20266/recipeRoulette/links.html">links</a></li>
+            </ul>
+        </div>
+         <h1>Recipe Roulette</h1>
+        <div>
+            <div class="index-left">
+                <div class="filter-toogles">
+                    <span>Meta filters (includes all ingredients...)</span>
+                    <br/>
+                    <input type="checkbox" name="" id="">
+                    <br/>
+                    <input type="checkbox" name="" id="">
+                    <br/>
+                    <input type="checkbox" name="" id="">
+                </div>
+                <br/>
+                <div class="input-fields">
+                    <span>Ingredient parameters including toogle to disinclude a spedific ingredient</span>
+                    <div>
+                        <input type="text" placeholder="ingredient" />
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div>
+                            <input type="text" placeholder="ingredient" />
+                            <input type="checkbox" name="" id="">
+                    </div>
+                    <div>
+                            <input type="text" placeholder="ingredient" />
+                            <input type="checkbox" name="" id="">
+                    </div>
+                    <br/>
+                    <button>
+                        Submit/search 
+                        <!--button that will populate the recipe cards on the same page.-->
+                    </button>
+                </div>
+            </div>
+            <div class="index-right">
+                <span>Here will go the recipe cards that are populated from the search results. </span>
+                <div class="recipe-card"></div>
+            </div>
+        </div>
+
+
+
+       
+        <footer>Author: <span class='priority'>Ryan Filax-Wylie</span> 
+            <br />
+            Last Modified: <span><!--have a date(javascript?) input that updates each time the file is saved--></span>        </footer>
+    </body>
+
+</html>
